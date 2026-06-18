@@ -49,6 +49,7 @@ public class Main {
                     library.returnBook(returnBookId);
 
                 default:
+                    sc.close();
                     System.exit(0);
             }
         }
